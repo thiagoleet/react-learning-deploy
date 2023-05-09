@@ -1,6 +1,6 @@
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData } from "react-router-dom";
 
-import PostList from '../components/PostList';
+import { PostList } from "../../components/PostList";
 
 function BlogPage() {
   const posts = useLoaderData();
@@ -8,5 +8,3 @@ function BlogPage() {
 }
 
 export default BlogPage;
-
-

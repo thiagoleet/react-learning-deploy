@@ -1,6 +1,6 @@
 import { useLoaderData } from "react-router-dom";
 
-import PostItem from "../components/PostItem";
+import { PostItem } from "../../components/PostItem";
 
 function PostPage() {
   const post = useLoaderData();
